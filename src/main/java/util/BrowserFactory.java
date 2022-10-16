@@ -42,7 +42,7 @@ public class BrowserFactory {
 			driver = new ChromeDriver();
 		}
 		if	(browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+			System.setProperty("webdriver.gecko.driver", "drivers\\geckodriver.exe");
 			driver  = new FirefoxDriver();
 			
 		}

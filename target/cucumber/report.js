@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 1643606200,
+  "duration": 1672453100,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "ChangeBackgroundStepDefinition.user_is_on_the_Background_color_testing_page()"
 });
 formatter.result({
-  "duration": 325290000,
+  "duration": 353405900,
   "status": "passed"
 });
 formatter.scenario({
@@ -68,25 +68,25 @@ formatter.match({
   "location": "ChangeBackgroundStepDefinition.set_SkyWhite_Background_button_exists()"
 });
 formatter.result({
-  "duration": 56095700,
+  "duration": 49654900,
   "status": "passed"
 });
 formatter.match({
   "location": "ChangeBackgroundStepDefinition.user_clicks_on_the_SkyWhite_button()"
 });
 formatter.result({
-  "duration": 32879200,
+  "duration": 35106300,
   "status": "passed"
 });
 formatter.match({
   "location": "ChangeBackgroundStepDefinition.the_background_color_will_change_to_SkyWhite()"
 });
 formatter.result({
-  "duration": 29666000,
+  "duration": 31257700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 609882200,
+  "duration": 607653700,
   "status": "passed"
 });
 });
