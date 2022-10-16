@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 365148800,
+              "duration": 325290000,
               "status": "passed"
             },
             "line": 5,
@@ -27,102 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 1663438600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ChangeBackgroundStepDefinition.setUp()"
-            }
-          }
-        ],
-        "line": 8,
-        "name": "1 User should be able change background color to SkyBlue",
-        "description": "",
-        "id": "background-color-change-functionality;1-user-should-be-able-change-background-color-to-skyblue",
-        "after": [
-          {
-            "result": {
-              "duration": 608350600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ChangeBackgroundStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 51943900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Set SkyBlue Background Button Exists",
-            "match": {
-              "location": "ChangeBackgroundStepDefinition.set_SkyBlue_Background_Button_Exists()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 35837200,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on the SkyBlue Button",
-            "match": {
-              "location": "ChangeBackgroundStepDefinition.user_clicks_on_the_SkyBlue_Button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 29467800,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "The background color will change to SkyBlue",
-            "match": {
-              "location": "ChangeBackgroundStepDefinition.the_background_color_will_change_to_SkyBlue()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 7,
-            "name": "@Scenario1"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 305100500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on the Background color testing page",
-            "match": {
-              "location": "ChangeBackgroundStepDefinition.user_is_on_the_Background_color_testing_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1128462900,
+              "duration": 1643606200,
               "status": "passed"
             },
             "match": {
@@ -137,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 686479600,
+              "duration": 609882200,
               "status": "passed"
             },
             "match": {
@@ -150,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42375300,
+              "duration": 56095700,
               "status": "passed"
             },
             "line": 17,
@@ -162,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 33901500,
+              "duration": 32879200,
               "status": "passed"
             },
             "line": 18,
@@ -174,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 28234500,
+              "duration": 29666000,
               "status": "passed"
             },
             "line": 19,
@@ -188,7 +93,7 @@
         "tags": [
           {
             "line": 15,
-            "name": "@Scenario2"
+            "name": "@ChangeToWhite"
           }
         ]
       }

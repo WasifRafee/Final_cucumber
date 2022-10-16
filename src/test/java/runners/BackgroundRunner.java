@@ -9,7 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	features= "src\\test\\java\\features",
 	glue="steps",
-	tags="@Scenario1",
+//	tags="@Regression",
+//	tags="@ChangeToSkyBlue",
+	tags="@ChangeToWhite",
+	
 	monochrome=true,
 	//dryRun = false,
 	plugin= {
@@ -19,6 +22,9 @@ import cucumber.api.junit.Cucumber;
 	}
 	
 )
-public class SkyWhiteRunner {
+
+
+
+public class BackgroundRunner {
 
 }
